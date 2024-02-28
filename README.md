@@ -1,5 +1,5 @@
 # Universally-Fair-Scheduler-Visualization
-Visualization script of Universally Fair Scheduler (UFS)
+## Visualization script of Universally Fair Scheduler (UFS)
 ![ufs](https://github.com/whskn/Universally-Fair-Scheduler-Visualization/assets/76423174/6e09fa04-5be6-4abf-ad5c-c6adc4fcb42e)
 
 ## Usage
@@ -17,10 +17,6 @@ numbers.
 - On initialisation (line 7), every weight zi is initialised by a non-negative
 random value from N0 .
 - In each scheduling cycle,
-(a) SFAIR inputs the set E of all runnable processes (line 10).
-(b) Then it selects a process p to be scheduled next (line 11), such that
-p is one of the runnable processes with smallest weight. Since several
-processes may ful l this condition, a random selection is performed
-among them.
-(c) The weight zp of the process to be scheduled is set to a new random
-value from N0 (line 12).
+1. SFAIR inputs the set E of all runnable processes (line 10).
+2.  Then it selects a process p to be scheduled next (line 11), such that p is one of the runnable processes with smallest weight. Since several processes may ful l this condition, a random selection is performed among them.
+3. he weight zp of the process to be scheduled is set to a new random value from N0 (line 12).
